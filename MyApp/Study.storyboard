@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Study View Controller-->
+        <scene sceneID="01u-jb-ie7">
+            <objects>
+                <viewController storyboardIdentifier="StudyVC" id="9tF-Gb-E7B" customClass="StudyViewController" customModule="NTTM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ybb-oF-DXD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Học tập" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IoF-UV-VUx">
+                                <rect key="frame" x="0.0" y="44" width="375" height="117"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="hyw-44-Nmv"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="28"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="5lR-T5-jTI">
+                                <rect key="frame" x="67.666666666666686" y="187" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Efq-Oa-RtT"/>
+                                    <constraint firstAttribute="width" constant="240" id="fcv-jV-IIl"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcR-FL-fej">
+                                <rect key="frame" x="193.66666666666663" y="688" width="141" height="54"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="YIb-ij-eel"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Thêm">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="AddClickAl" destination="9tF-Gb-E7B" eventType="touchUpInside" id="jVS-2b-u7r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wl-nk-YTP">
+                                <rect key="frame" x="40.666666666666657" y="688" width="141" height="54"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="2Vr-6Y-6Sr"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Trở lại">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="BackclickAl" destination="9tF-Gb-E7B" eventType="touchUpInside" id="7xu-Sx-RLQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKR-XL-taU">
+                                <rect key="frame" x="0.0" y="-67" width="375" height="117"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="0fA-YW-0Uu"/>
+                                    <constraint firstAttribute="height" constant="117" id="FP3-ya-h8A"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="28"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="PKR-XL-taU" firstAttribute="leading" secondItem="0h1-Mh-tLx" secondAttribute="leading" id="2Be-mA-iRV"/>
+                            <constraint firstItem="0h1-Mh-tLx" firstAttribute="bottom" secondItem="pcR-FL-fej" secondAttribute="bottom" constant="36" id="9dH-zh-jmN"/>
+                            <constraint firstItem="5lR-T5-jTI" firstAttribute="top" secondItem="IoF-UV-VUx" secondAttribute="bottom" constant="26" id="Cia-6t-M1q"/>
+                            <constraint firstItem="pcR-FL-fej" firstAttribute="width" secondItem="5wl-nk-YTP" secondAttribute="width" id="F61-BJ-grK"/>
+                            <constraint firstItem="0h1-Mh-tLx" firstAttribute="bottom" secondItem="5wl-nk-YTP" secondAttribute="bottom" constant="36" id="GiR-2h-ner"/>
+                            <constraint firstItem="5lR-T5-jTI" firstAttribute="top" secondItem="PKR-XL-taU" secondAttribute="bottom" constant="137" id="I62-nS-9cw"/>
+                            <constraint firstItem="5wl-nk-YTP" firstAttribute="leading" secondItem="0h1-Mh-tLx" secondAttribute="leading" constant="40.5" id="JBq-FR-Jg2"/>
+                            <constraint firstItem="0h1-Mh-tLx" firstAttribute="trailing" secondItem="pcR-FL-fej" secondAttribute="trailing" constant="40.5" id="Wyn-5A-8YI"/>
+                            <constraint firstItem="5lR-T5-jTI" firstAttribute="leading" secondItem="0h1-Mh-tLx" secondAttribute="leading" constant="67.5" id="YIL-eE-Ccj"/>
+                            <constraint firstItem="PKR-XL-taU" firstAttribute="trailing" secondItem="0h1-Mh-tLx" secondAttribute="trailing" id="Zcz-h4-Ia6"/>
+                            <constraint firstItem="pcR-FL-fej" firstAttribute="leading" secondItem="5wl-nk-YTP" secondAttribute="trailing" constant="12" id="Zv4-ah-NM9"/>
+                            <constraint firstItem="IoF-UV-VUx" firstAttribute="top" secondItem="0h1-Mh-tLx" secondAttribute="top" id="i6E-z7-IeE"/>
+                            <constraint firstItem="IoF-UV-VUx" firstAttribute="leading" secondItem="0h1-Mh-tLx" secondAttribute="leading" id="jHK-9C-3UD"/>
+                            <constraint firstItem="IoF-UV-VUx" firstAttribute="trailing" secondItem="0h1-Mh-tLx" secondAttribute="trailing" id="ptR-Uy-wB0"/>
+                            <constraint firstItem="0h1-Mh-tLx" firstAttribute="trailing" secondItem="5lR-T5-jTI" secondAttribute="trailing" constant="67.5" id="wYP-K7-wvf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0h1-Mh-tLx"/>
+                    </view>
+                    <connections>
+                        <outlet property="AddbuttonAl" destination="pcR-FL-fej" id="Xya-pe-Di1"/>
+                        <outlet property="BackbuttonAl" destination="5wl-nk-YTP" id="ydB-Cb-HJB"/>
+                        <outlet property="ImageAl" destination="5lR-T5-jTI" id="Lpt-Qk-DyF"/>
+                        <outlet property="TittleLabelAl" destination="IoF-UV-VUx" id="sk6-We-qnq"/>
+                        <outlet property="statusbar" destination="PKR-XL-taU" id="uKX-Q6-yL9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sk4-EG-hv4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="-55.418719211822662"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="2598" height="2598"/>
+    </resources>
+</document>

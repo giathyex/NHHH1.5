@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NHHH1_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NHHH1.5 - Ân's App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZA-M5-2y1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="117"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="117" id="vHz-kf-d6P"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="28"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7s-dl-P3b">
+                                <rect key="frame" x="75" y="339" width="264" height="54"/>
+                                <color key="backgroundColor" red="0.9815787672996521" green="0.29964560270309448" blue="0.35092908143997192" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="u7s-dl-P3b" secondAttribute="height" multiplier="25:6" id="CNU-3v-6IW"/>
+                                    <constraint firstAttribute="height" constant="54" id="Zh9-c7-1FJ"/>
+                                    <constraint firstAttribute="width" constant="225" id="tRj-rg-8HR"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Ngôi nhà yêu thương">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="NNYTClick" destination="BYZ-38-t0r" eventType="touchUpInside" id="eUs-mu-UkK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmV-av-dVV">
+                                <rect key="frame" x="75" y="401" width="264" height="54"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="Mc0-xr-Hfy"/>
+                                    <constraint firstAttribute="height" constant="54" id="chR-H4-DBa"/>
+                                    <constraint firstAttribute="width" secondItem="wmV-av-dVV" secondAttribute="height" multiplier="25:6" id="kfJ-Zz-Byz"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Kỷ niệm &amp; Ảnh">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="MEMORCLICK" destination="BYZ-38-t0r" eventType="touchUpInside" id="32k-Yi-hry"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cM2-V5-utd">
+                                <rect key="frame" x="75" y="463" width="264" height="54"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="6wd-QF-45p"/>
+                                    <constraint firstAttribute="height" constant="54" id="Snp-Ev-iKb"/>
+                                    <constraint firstAttribute="width" secondItem="cM2-V5-utd" secondAttribute="height" multiplier="25:6" id="kXu-hw-aaZ"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Học tập">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="STUDYCLICK" destination="BYZ-38-t0r" eventType="touchUpInside" id="WVl-B0-BeR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a4A-eh-TMR">
+                                <rect key="frame" x="75" y="525" width="264" height="54"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="1KQ-l7-ZVw"/>
+                                    <constraint firstAttribute="width" secondItem="a4A-eh-TMR" secondAttribute="height" multiplier="25:6" id="7bG-Nb-z82"/>
+                                    <constraint firstAttribute="width" constant="225" id="D6j-HN-feb"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Lịch">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="CALCLICK" destination="BYZ-38-t0r" eventType="touchUpInside" id="pPg-0P-HGJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ECk-lJ-SeH">
+                                <rect key="frame" x="75" y="587" width="264" height="54"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ECk-lJ-SeH" secondAttribute="height" multiplier="25:6" id="1xS-Vr-cdq"/>
+                                    <constraint firstAttribute="height" constant="54" id="aAX-0N-W0U"/>
+                                    <constraint firstAttribute="width" constant="225" id="vTc-AY-2Fa"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Yêu cầu">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="REQCLICK" destination="BYZ-38-t0r" eventType="touchUpInside" id="TNd-3P-xW9"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="hQi-M9-Twh">
+                                <rect key="frame" x="67.5" y="187" width="279" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="9Oj-40-FL8"/>
+                                    <constraint firstAttribute="height" constant="128" id="lEa-4X-w7P"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AN1-OM-gbB">
+                                <rect key="frame" x="0.0" y="-168" width="414" height="217"/>
+                                <color key="backgroundColor" red="0.98157876730000004" green="0.29964560270000001" blue="0.35092908140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="138" id="dJY-34-fDk"/>
+                                    <constraint firstAttribute="height" constant="217" id="jH6-Si-yTZ"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="28"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cM2-V5-utd" firstAttribute="top" secondItem="wmV-av-dVV" secondAttribute="bottom" constant="8" id="1Ci-xK-rqH"/>
+                            <constraint firstItem="hQi-M9-Twh" firstAttribute="top" secondItem="AN1-OM-gbB" secondAttribute="bottom" constant="138" id="4aZ-Ro-yd2"/>
+                            <constraint firstItem="wmV-av-dVV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="5y0-h8-ABM"/>
+                            <constraint firstItem="bZA-M5-2y1" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BIo-IH-c95"/>
+                            <constraint firstItem="u7s-dl-P3b" firstAttribute="top" secondItem="hQi-M9-Twh" secondAttribute="bottom" constant="24" id="Dv1-vZ-Anz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a4A-eh-TMR" secondAttribute="trailing" constant="75" id="GIj-H4-fc5"/>
+                            <constraint firstItem="wmV-av-dVV" firstAttribute="top" secondItem="u7s-dl-P3b" secondAttribute="bottom" constant="8" id="I9R-Xm-oS6"/>
+                            <constraint firstItem="cM2-V5-utd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="Pex-mf-c3H"/>
+                            <constraint firstItem="hQi-M9-Twh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67.5" id="TB6-re-1FF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wmV-av-dVV" secondAttribute="trailing" constant="75" id="UUp-rg-iwh"/>
+                            <constraint firstItem="a4A-eh-TMR" firstAttribute="top" secondItem="cM2-V5-utd" secondAttribute="bottom" constant="8" id="XPd-Kq-fFx"/>
+                            <constraint firstItem="bZA-M5-2y1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZzW-yG-2qK"/>
+                            <constraint firstItem="u7s-dl-P3b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="dVp-yk-43L"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hQi-M9-Twh" secondAttribute="trailing" constant="67.5" id="dkr-wE-yyV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ECk-lJ-SeH" secondAttribute="trailing" constant="75" id="dks-1y-Xyl"/>
+                            <constraint firstItem="ECk-lJ-SeH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="dtf-4C-w4R"/>
+                            <constraint firstItem="bZA-M5-2y1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gCN-fj-FOw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cM2-V5-utd" secondAttribute="trailing" constant="75" id="jLk-M3-k1p"/>
+                            <constraint firstItem="hQi-M9-Twh" firstAttribute="top" secondItem="bZA-M5-2y1" secondAttribute="bottom" constant="26" id="phV-6K-Jay"/>
+                            <constraint firstItem="ECk-lJ-SeH" firstAttribute="top" secondItem="a4A-eh-TMR" secondAttribute="bottom" constant="8" id="u6n-aT-adt"/>
+                            <constraint firstItem="AN1-OM-gbB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uIs-sU-LeY"/>
+                            <constraint firstItem="a4A-eh-TMR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="wLo-eY-KMG"/>
+                            <constraint firstItem="AN1-OM-gbB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="y3D-yH-Ef6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u7s-dl-P3b" secondAttribute="trailing" constant="75" id="zxP-bA-Sn7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Cal" destination="a4A-eh-TMR" id="2UI-oe-fa5"/>
+                        <outlet property="Memor" destination="wmV-av-dVV" id="zAj-oq-oDj"/>
+                        <outlet property="NNYT" destination="u7s-dl-P3b" id="qCx-Es-bN8"/>
+                        <outlet property="Req" destination="ECk-lJ-SeH" id="UeO-nj-Svj"/>
+                        <outlet property="Study" destination="cM2-V5-utd" id="5ac-5g-X0y"/>
+                        <outlet property="Tittle" destination="bZA-M5-2y1" id="Wzh-1N-sM1"/>
+                        <outlet property="statusbar" destination="AN1-OM-gbB" id="N8g-ty-NCA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="97.536945812807886"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="2598" height="2598"/>
+    </resources>
+</document>
